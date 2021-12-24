@@ -8,12 +8,12 @@ public class MinimumSquares {
 // Her Every block also a Square i.e. 3 x 4 length wood would have 12 blocks of Square Shape
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("input size of rectangular wood : (M X N) : ");
+        System.out.print("input size of rectangular wood : (M X N) : ");
         int M = sc.nextInt();
         int N = sc.nextInt();
         //the size of Wood (M*N)
         int result = NumberOfSquares(M,N);
-        System.out.println(result);
+        System.out.println("Number of derived square is  : " + result);
     }
 
     public static int NumberOfSquares (int m , int n){
